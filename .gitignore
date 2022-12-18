@@ -1,0 +1,3 @@
+playlist-helm-chart/charts
+.idea
+playlist-helm-chart/templates/secret.yaml
