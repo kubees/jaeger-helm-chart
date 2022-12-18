@@ -1,3 +1,2 @@
-playlist-helm-chart/charts
+jaeger-helm-chart/charts
 .idea
-playlist-helm-chart/templates/secret.yaml
