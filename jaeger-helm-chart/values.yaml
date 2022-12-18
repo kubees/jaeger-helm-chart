@@ -1,0 +1,13 @@
+jaeger:
+  provisionDataStore:
+    cassandra: false
+    elasticsearch: false
+    kafka: false
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      host: elastic.databases
+      port: 9200
+      user:
+      usePassword: true
+      password:
