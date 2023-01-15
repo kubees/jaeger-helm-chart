@@ -1,4 +1,7 @@
 jaeger:
+  query:
+    service:
+      type: LoadBalancer
   provisionDataStore:
     kafka: false
     cassandra: false
