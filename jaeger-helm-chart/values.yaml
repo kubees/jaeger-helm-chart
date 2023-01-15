@@ -6,7 +6,8 @@ jaeger:
   storage:
     type: elasticsearch
     elasticsearch:
-      host: elastic.databases
+      host: elastic.monitoring
       port: 9200
-      user:
-      password:
+      existingSecret: jaeger-elastic-secret
+      existingSecretKey: password
+      user: elastic
